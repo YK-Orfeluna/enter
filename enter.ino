@@ -1,4 +1,4 @@
-int dis = 45;     //距離
+int dis = 100;     //距離
 
 int flag = 0;
 int sum = 0;
