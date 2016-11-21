@@ -1,3 +1,5 @@
+int dis = 45;     //距離
+
 int flag = 0;
 int sum = 0;
 
@@ -45,7 +47,7 @@ void loop() {
 
   if(flag == 50){
     float distance = sum / 50;
-    if (distance > 150){
+    if (distance > dis){
       digitalWrite(7, HIGH);
       delay(100);
       for(i=0;i<=12;i++){
